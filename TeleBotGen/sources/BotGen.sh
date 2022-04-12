@@ -34,6 +34,7 @@ keytxt="${CIDdir}/keys" && [[ ! -d ${keytxt} ]] && mkdir ${keytxt}
 [[ ! -e "/bin/ShellBot.sh" ]] && wget -O /bin/ShellBot.sh https://raw.githubusercontent.com/Waldo60/2ubott/ChumoGH-patch-1/ShellBot.sh &> /dev/null
 [[ -e /etc/texto-bot ]] && rm /etc/texto-bot
 LINE=" ••••••••••••••••••••••••••••••••••••••••••••••••••••"
+LINE2=" "
 
 # Importando API
 source ShellBot.sh

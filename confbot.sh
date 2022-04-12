@@ -275,7 +275,6 @@ echo -e "\033[1;32m[1] \033[1;36m> \033[1;37m TOKEN DEL BOT $tk "
 echo -e "\033[1;32m[2] \033[1;36m> \033[1;37m INICIAR/PARAR BOT $PID_GEN\033[0m"
 echo -e "\033[1;32m[3] \033[1;36m> \033[1;37m ID DE USUARIO TELEGRAM  $adid"
 echo -e "\033[1;32m[4] \033[1;36m> \033[1;37m Cambiar Contacto -> $(cat < ${CIDdir}/resell)"
-
 echo -e "\033[1;32m[5] \033[1;36m> \033[1;37m MENSAJE DE PRUEBA"
 echo -e "\033[1;32m[6] \033[1;36m> \033[1;37m MANUAL De Uso"
 echo -e "\033[1;32m[7] \033[1;36m> \033[1;37m Autorizar ID Limitado $PID_on"

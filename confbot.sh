@@ -217,7 +217,6 @@ instaled=/etc/ADM-db/sources && [[ ! -d ${instaled} ]] && download
 }
 
 msj_prueba () {
-
 TOKEN="$(cat /etc/ADM-db/token)"
 ID="$(cat /etc/ADM-db/Admin-ID)"
 

@@ -267,6 +267,7 @@ PID_on=$(ps x|grep -v grep|grep "modelid")
 [[ -e ${CIDdir}/Admin-ID ]] && adid="\033[1;32mOK" || adid="\033[1;31mNULL"
 limcont=$(cat /etc/ADM-db/limit) 
 [[ "${limcont}" = "999" ]] && limted="Ilimitado" || limted=$(cat /etc/ADM-db/limit)
+
 echo -e "$bar"
 echo -e "     \e[47m \e[30m>>>>>>  BotGen by \e[1;36mChumoGH\e[1;32m  $(cat ${CIDdir}/vercion)\e[0m\e[47m \e[30m<<<<<< \e[0m"
 echo -e "$bar"

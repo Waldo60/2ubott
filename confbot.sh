@@ -36,6 +36,7 @@ function_verify () {
   CIDdir=/etc/ADM-db && [[ ! -d ${CIDdir} ]] && mkdir ${CIDdir}
   v1=$(curl -sSL "https://www.dropbox.com/s/blxo0jifysvyrey/v-new.log")
   echo "$v1" > /etc/ADM-db/vercion
+  
   echo "@ChumoGH" > ${CIDdir}/resell
   
   }

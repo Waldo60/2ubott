@@ -255,7 +255,6 @@ echo "Respaldando TOKEN y ADMINISTRADOR"
 rm -rf /etc/ADM-db/sources/gerar_key && download
 }
 
-
 bot_gen () {
 clear
 unset PID_GEN

@@ -42,6 +42,10 @@ function_verify () {
   }
 }
 
+echo -e "verificando..."
+check_ip
+function_verify
+
 lim-bot () {
 unset option
 clear

@@ -4,7 +4,7 @@ SUB_DOM='base64 -d'
 bar="\e[0;36m=====================================================\e[0m"
 
 CIDdir=/etc/ADM-db && [[ ! -d ${CIDdir} ]] && mkdir ${CIDdir}
-wget -O /etc/ADM-db/BotGen.sh https://raw.githubusercontent.com/Waldo60/2ubott/ChumoGHmain/TeleBotGen/sources/BotGen.sh; chmod 777 /etc/ADM-db/BotGen.sh
+wget -O /etc/ADM-db/BotGen.sh https://raw.githubusercontent.com/Waldo60/2ubott/ChumoGH-patch-1/TeleBotGen/sources/BotGen.sh; chmod 777 /etc/ADM-db/BotGen.sh
 
 #[[ -e /etc/ADM-db/idioma_menuinst ]] && tr=$(cat < /etc/ADM-db/idioma_menuinst)
 #text=$(source trans -b pt:${tr} "Instalando ")

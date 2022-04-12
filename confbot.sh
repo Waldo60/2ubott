@@ -244,7 +244,6 @@ ID="$(cat /etc/ADM-db/Admin-ID)"
 		sleep 0.5s
 	}
 }
-
 bot_gen
 }
 

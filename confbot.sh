@@ -15,6 +15,8 @@ echo "$IP" > /usr/bin/vendor_code
 }
 
 function_verify () {
+#echo -e "verificando..."
+# check_ip
  permited=$(curl -sSL "https://raw.githubusercontent.com/Waldo60/2ubott/ChumoGH-patch-1/TeleBotGen/Control/Control-Bot")
   [[ $(echo $permited|grep "${IP}") = "" ]] && {
   clear

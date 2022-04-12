@@ -302,3 +302,4 @@ esac
 }
 [[ -e "/etc/ADM-db/sources/gerar_key" ]] || download
 bot_gen
+#

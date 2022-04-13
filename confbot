@@ -278,7 +278,7 @@ echo -e "\033[1;32m[9] \033[1;36m> \033[1;37m Aplicar Limite diario de Generadas
 echo -e "\033[1;32m[10] \033[1;36m> \033[1;37mAplicar Mensaje de Bienvenida de No Autorizado"
 echo -e "$bar"
 echo -e "$bar"
-echo -e "\e[1;32m[0] \e[36m>\e[0m \e[47m\e[30m << ATRAS "
+echo -e "\e[1;32m[0] \e[36m> \e[0m \e[47m\e[30m<< ATRAS "
 echo -e "$bar"
 echo -n "Opcion: "
 read opcion

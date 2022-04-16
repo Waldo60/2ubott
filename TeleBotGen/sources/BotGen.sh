@@ -23,8 +23,8 @@ function_verify () {
   }
 }
 
-#check_ip
-#function_verify
+check_ip
+function_verify
   
 CIDdir=/etc/ADM-db && [[ ! -d ${CIDdir} ]] && mkdir ${CIDdir}
 SRC="${CIDdir}/sources" && [[ ! -d ${SRC} ]] && mkdir ${SRC}
